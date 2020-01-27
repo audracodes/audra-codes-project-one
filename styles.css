@@ -797,12 +797,17 @@ input.email-field {
 
     .contact-info-footer li {
         text-align: center;
-        width: 45%;
+        width: 35%;
     }
 
     .pages-footer li a {
         border-right: 2px #F8F8F8 solid;
         padding: 0 15px;
+    }
+
+    .contact-info-footer ul li div {
+        float: right;
+        width: 45%;
     }
 
     .pages-footer li:last-child a {
@@ -876,5 +881,10 @@ input.email-field {
 
     footer ul h5 {
         padding-right: 3%;
+    }
+
+    .pages-footer li a  {
+        margin: 0;
+        padding: 0 10px;
     }
 }
