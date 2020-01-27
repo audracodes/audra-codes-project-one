@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,700|Great+Vibes&display=swap" rel="stylesheet"> 
+    <title>Tasty</title>
+    <script src="https://kit.fontawesome.com/1d552b85e6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- I chose to make the "find out more" and "read more" into buttons for accessibility reasons. While screen readers whill know the differnce between links and buttons, a sighted user might not be able to use voice control to follow a link that's styled like a button if they're using the commands to click a button. -->
+<body>
+    <header>
+        <div id="home" class=" wrapper"> 
+            <a href="#main" class="skip-link">Skip to Main Content</a>
+
+            <!-- Header Nav/Little Tasty -->
+            <nav class="clearfix top-nav">
+                <h2><a href="#home">Tasty</a></h2>
+                <ul class="clearfix">
+                    <li class="nav-options"><a href="#home">Home</a></li>
+                    <li class="nav-options"><a href="#about">About</a></li>
+                    <li class="nav-options"><a href="#blog">Blog</a></li>
+                    <li class="nav-options"><a href="#contact">Contact</a></li>
+                    <li><a href=""><i class="fas fa-bars hamburger"></i></a></li>
+                </ul>
+            </nav>
+
+            <!-- Header Text -->
+            <h1>Welcome to <div class="heading-tasty">Tasty...</div></h1>
+        </div>
+
+        <!-- Social Media Icons -->
+        <ul class="clearfix social-icons">
+            <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-linkedin-in"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+        </ul>
+    </header>
+    
+    <main>
+        <!-- About Section -->
+        <section id="about" class="about-section clearfix">
+            <div class="wrapper about-div">
+                <h3>About Tasty</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat laboriosam nihil ratione, eveniet labore voluptates amet quam rerum dolores perferendis id pariatur est facere quaerat iste quo dolor cumque voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button href="" class="button">Find Out More</button>
+            </div>
+        </section>
+
+        <!-- 3 Icon Section -->
+        <section class="icons-background">
+                <div class="wrapper icons-together clearfix">
+                    <ul class="icons-list">
+                        <li class="recipes">
+                            <a href="#blog">
+                                <i class="fas fa-utensils"></i>
+                                Recipes
+                            </a>
+                        </li>
+                        <li class="cooking-tips">
+                            <a href="#blog">
+                                <i class="fas fa-book-open"></i>
+                                Cooking Tips
+                            </a>
+                        </li>
+                        <li class="contact">
+                            <a href="#contact">
+                                <i class="fas fa-envelope"></i>
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery">
+            <ul class="wrapper clearfix three-photos">
+                <li><img src="./tasty-assets/asset-2.jpg" alt="Close up of a lemon cut in half and a bunch of blue grapes lying on light blue deniem"></li>
+                <li><img src="./tasty-assets/asset-3.jpg" alt="Gourmet salad with roasted chicken and extra dressing on the side"></li>
+                <li class="hidden-image"> <img src="./tasty-assets/asset-4.jpg" alt="A bowl of yellow soup beside a pot of yellow soup. Both are sitting on royal blue placemats."></li>
+            </ul>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="blog-section clearfix">
+            <div class="cooking-tips-div clearfix">
+               <div class="cooking-tips-post wrapper ">
+                   <h4>Cooking Tips</h4>
+                   <p>Lorem ipsum dolor sit, amet consectetur adip sicing elit. Voluptatem nihil laudantium ipsa? Lorem ipsum dolor sit.</p>
+                   <button href="" class="button">Read More</button>
+               </div>
+               <img class="cooking-tips-pic" src="./tasty-assets/asset-5.jpg" alt="Tablet with pictures of cut oranges and grapefruit on a white table. There is cut oranges and kiwis on a plate to the left of the tablet and two knives to the right of the tablet.">
+            </div>
+
+            <div class="popular-recipes-div clearfix">
+                <div class="popular-recipes-post wrapper">
+                    <h4>Popular Recipes</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit. Lorem, ipsum dolor sit amet consectetur. </p>
+                    <button href="" class="button">Read More</button>
+                </div>
+                <img class="popular-recipes-pic" src="./tasty-assets/asset-6.jpg" alt="A tablet with a recipe in a tablet stand on a white table. There are two wooden spoons and a deck of cards beside the tablet. A bowl of limes is in the background.">
+            </div>
+        </section>
+
+        <!-- Meet the Cook Section -->
+        <section id="contact" class='contact-section clearfix'>
+            <div class="wrapper">
+                <img class="author-pic" src="./tasty-assets/asset-7.jpg" alt="Circular picture of the author with their face coming out of water surrounded by slices of oranges, grapefruits, and lemons.">
+            <div class="meet-the-cook"> 
+                <h3>Meet the Cook</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit, recusandae explicabo ad perspiciatis asperiores, incidunt, pariatur fugit suscipit maiores repudiandae. Voluptatum molestiae recusandae nihil explicabo consectetur blanditiis nam ullam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore commodi harum odit possimus dolores, accusantium enim alias aut temporibus beatae asperiores culpa amet consectetur et. Pariatur, quidem natus!</p>
+                <button href="" class="button">Find Out More</button>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrapper clearfix footer-div">
+            <nav>
+                <!-- Email form -->
+                <form action="" class="form">
+                    <h5>Stay Updated</h5>
+                    <p>Subscribe to our newsletter to stay updated</p>
+                    <label for="your-email" class="visually-hidden">Email Address</label>
+                    <input type="email" name="email" id="your-email" placeholder="email address" class="email-field"><input type="submit" value="Subscribe" class="button button-subscribe">
+                </form>
+                <!-- Footer Contact Info -->
+                <!-- Made the contact info into links to simulate how on a useable website they would ideally open up an email application, give the user the option for a phone call, or link to a map. -->
+                <div class=".footer-lists">
+                    <ul class="contact-info-footer">
+                        <h5>Contact</h5>
+                        <li><a href="">info@email.com</a></li>
+                        <li><a href="" class="second">123 - 456 - 7890</a></li>
+                        <li><a href="">123 some road. <div>Toronto. ON</div></a></li>
+                    </ul>
+     
+                    <!-- Footer Nav -->
+                    <ul class="pages-footer">
+                        <h5>Pages</h5>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+               <!-- Footer Links -->
+               <!-- I assumed these were linking to recipes on another page -->
+               <ul class="recent-posts-footer"> 
+                   <h5>Recent Posts</h5>
+                   <li><a href="">Lemon Pound Cake</a></li>
+                   <li><a href="">Spaghetti Squash</a></li>
+                   <li><a href="">Sugar Free</a></li>
+                   <li><a href="">Lemonade</a></li>
+               </ul>
+            </nav>
+
+        </div>
+
+        <!-- Footer Copyright -->
+        <div class="copyright-section">
+            <p class="wrapper copyright">Copyright &copy; 2018 HackerYou</p>
+        </div>
+    </footer>
+</body>
+</html>
